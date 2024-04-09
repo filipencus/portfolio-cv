@@ -5,7 +5,8 @@ config.autoAddCss = false;
 
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/shared/Navbar";
+import Navbar from "@/components/shared/navbar/Navbar";
+import Bottombar from "@/components/shared/bottombar/Bottombar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,6 +25,7 @@ export default function RootLayout({
           <Navbar></Navbar>
           <main>{children}</main>
           <footer>© 2024, Made with 🧡 by Filip Enc.</footer>
+          <Bottombar></Bottombar>
         </div>
       </body>
     </html>

@@ -1,0 +1,31 @@
+.navbar {
+  display: none;
+  float: right;
+  text-align: right;
+  top: -16px;
+  position: absolute;
+  width: 100%;
+  right: 8px;
+  left: initial;
+  background: initial;
+  padding: initial;
+}
+
+.navbar a {
+  box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.2);
+  padding: 6px 10px;
+  border: 1px solid grey;
+  margin-right: 10px;
+  background: white;
+  font-size: 14px;
+}
+
+.active {
+  background-color: var(--link-active-color) !important;
+}
+
+@media (min-width: 635px) {
+  .navbar {
+    display: block;
+  }
+}

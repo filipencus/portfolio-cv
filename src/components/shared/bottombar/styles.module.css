@@ -1,0 +1,42 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: white;
+  border-bottom: 1px solid #dadada;
+  padding: 3px 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2vw;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.navbar a {
+  padding: 5px 4px;
+  background: white;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a svg {
+  font-size: 20px;
+}
+
+.active {
+  background-color: var(--link-active-color) !important;
+}
+
+@media (min-width: 635px) {
+  .navbar {
+    display: none;
+  }
+}
