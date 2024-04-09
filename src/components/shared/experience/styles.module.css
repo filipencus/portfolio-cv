@@ -1,0 +1,63 @@
+.box {
+  margin-bottom: 6rem;
+}
+
+.portfolio {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolioImg {
+  border: 1px solid grey;
+  margin-bottom: 10px;
+}
+
+.companyInfo {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.companyLogo {
+  max-width: 60px;
+  margin-right: 8px;
+  height: fit-content;
+}
+
+.companyDesc {
+  font-size: 12px;
+  font-style: oblique;
+  opacity: 0.6;
+}
+
+.info {
+  display: inline-block;
+}
+
+.desc {
+  margin-bottom: 5px;
+  font-size: 14px;
+  white-space: pre-wrap;
+}
+
+.tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.tags span {
+  border: 1px solid grey;
+  padding: 0px 6px;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+small {
+  float: right;
+  font-size: 14px;
+}

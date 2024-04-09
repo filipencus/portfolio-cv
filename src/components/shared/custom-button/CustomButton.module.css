@@ -1,0 +1,14 @@
+.button {
+  text-transform: uppercase;
+  border: 1px solid grey;
+  padding: 10px 20px;
+  background-color: white;
+  animation: rainbow-animation 1s linear infinite;
+}
+
+.button:hover {
+  background-color: var(--link-active-color);
+  -webkit-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}

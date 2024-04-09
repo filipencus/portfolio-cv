@@ -1,0 +1,92 @@
+.center {
+  margin: 0 auto;
+}
+
+.skills {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.boxIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  background: #f2f0ee;
+  border-radius: 7px;
+  padding: 5px 20px;
+  gap: 5px;
+}
+
+.bigIcon {
+  font-size: 2em;
+}
+
+.left {
+  display: inline-block;
+}
+
+.talk {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--button-active-color);
+  border-radius: 10px;
+  height: 45px;
+  width: 180px;
+  color: white;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.link {
+  color: var(--button-active-color);
+  text-decoration: underline;
+}
+
+.more {
+  text-align: center;
+  margin-top: 25px;
+}
+
+@media (min-width: 600px) {
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .boxIcon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .bigIcon {
+    font-size: 4em;
+  }
+  .talk-wrapper {
+    display: block;
+  }
+}
+
+@media (min-width: 800px) {
+  .skills {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .boxIcon {
+    padding: 5px 5px;
+    gap: 0px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .skills {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .boxIcon {
+    padding: 10px 15px;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,18 @@
+.testimonialContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.manager {
+  display: flex;
+  margin-bottom: 24px;
+  gap: 14px;
+}
+
+.manager p {
+  color: grey;
+  font-style: oblique;
+  font-size: 12px;
+}

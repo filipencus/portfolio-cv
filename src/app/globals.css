@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #f5f5f5;
+  font-family: IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  font-size: 15px;
+  padding: 4%;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* START VARIABLES */
+
+:root {
+  --section-title-color: #0d0cd2;
+  --link-active-color: #ffd07b;
+  --button-active-color: #fba227;
+}
+
+/* END VARIABLES */
+
+
+.app-container {
+  background: white;
+  margin: 70px 10% 70px 10%;
+  position: relative;
+  /* padding: 45px 65px; */
+  padding: 7vh 6vw;
+  min-height: 50vh;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.navbar {
+  float: right;
+  text-align: right;
+  top: -16px;
+  position: absolute;
+  width: 100%;
+  right: 8px;
+}
+
+.navbar a {
+  box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.2);
+  padding: 6px 10px;
+  border: 1px solid grey;
+  margin-right: 10px;
+  background: white;
+  font-size: 14px;
+}
+
+.navbar .active{
+  background-color: var(--link-active-color);
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+footer{
+  position: absolute;
+  bottom: -30px;
+  font-size: 12px;
+}
+
+.section-title{
+  font-weight: 600;
+  color: var(--section-title-color);
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.w-100{
+  width: 100% !important;
+}
+
+
+
+
