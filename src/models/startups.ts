@@ -8,7 +8,7 @@ export const experiencesStartups = [
     end: "",
     logo: "/dapprIcon.png",
     app: ["/dappr1.png", "/dappr2.png", "/dappr3.png", "/dappr4.png"],
-    desc: `Build intuitive applications. Extend functionalities and resolve performance issues.\nApart of developing, I am in charge of making deployments to production and code quality reviews of teams.
+    desc: `TODO write this section propperly. Extend functionalities and resolve performance issues.\nApart of developing, I am in charge of making deployments to production and code quality reviews of teams.
     Apart of developing, I am in charge of making deployments to production and code quality reviews of teams.
     Apart of developing, I am in charge of making deployments to production and code quality reviews of teams.
     Apart of developing, I am in charge of making deployments to production and code quality reviews of teams.

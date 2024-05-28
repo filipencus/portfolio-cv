@@ -10,7 +10,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deploy on GITHUB
 
-1. Run this after your changes: npm run build
+1. Run this after your changes: npm run build (only to check if build its ok)
 2. Commit your changes.
 3. Push to your branch.
 4. Check out the site: filipencus.com
