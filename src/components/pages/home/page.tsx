@@ -1,6 +1,7 @@
 "use client";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./page.module.css";
+import Image from "next/image";
 import { faAtom, faCode, faN } from "@fortawesome/free-solid-svg-icons";
 import { faAngular, faAws, faCss3, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faHtml5, faNodeJs, faReact, faSass, faSquareJs } from "@fortawesome/free-brands-svg-icons";
@@ -9,7 +10,6 @@ import WorkExperienceSmall from "@/components/shared/experience/WorkExperienceSm
 import CustomButton from "@/components/shared/custom-button/CustomButton";
 import Link from "next/link";
 import BarActions from "@/components/shared/page-actions/BarActions";
-import image from "../../../../public/prof.png";
 
 export default function Home() {
   return (
@@ -19,7 +19,8 @@ export default function Home() {
           <br />
           <h1>
             Hi 👋,
-            <br />I am Filip.
+            <br />
+            I am Filip.
           </h1>
           <br />
           Software Developer from Madrid, Spain with more than 10 years of experience in building
@@ -31,7 +32,14 @@ export default function Home() {
           </a>
         </div>
         <div>
-          <img className={styles.center} src={image.src} alt="profile" />
+          <Image
+            className={styles.center}
+            src="/prof.png"
+            alt="profile"
+            width={250}
+            height={250}
+            priority
+          />
           <div className={styles.more}>
             ...read more about me{" "}
             <Link href="/about" className={styles.link}>
@@ -130,6 +138,7 @@ export default function Home() {
       <br />
       <br />
       <BarActions></BarActions>
+      
     </div>
   );
 }
