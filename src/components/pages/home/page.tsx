@@ -32,13 +32,10 @@ export default function Home() {
           </a>
         </div>
         <div>
-          <Image
+          <img
             className={styles.center}
             src="/prof.png"
             alt="profile"
-            width={250}
-            height={250}
-            priority
           />
           <div className={styles.more}>
             ...read more about me{" "}
