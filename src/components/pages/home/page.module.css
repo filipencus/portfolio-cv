@@ -54,6 +54,25 @@
   margin-top: 25px;
 }
 
+.columns {
+  columns: 1;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .actionBtn {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .columns {
+    columns: 2;
+    text-align: left;
+  }
+}
+
 @media (min-width: 600px) {
   .skills {
     grid-template-columns: repeat(2, 1fr);

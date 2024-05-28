@@ -14,24 +14,23 @@ import BarActions from "@/components/shared/page-actions/BarActions";
 export default function Home() {
   return (
     <div className={styles.test}>
-      <div className="columns-2 gap-3">
+      <div className={`${styles.columns} gap-3`}>
         <div className={styles.left}>
           <br />
           <h1>
             Hi 👋,
-            <br />
-            I am Filip.
+            <br />I am Filip.
           </h1>
           <br />
           Software Developer from Madrid, Spain with more than 10 years of experience in building
           complex applications with cutting-edge technologies.
-          <a href="mailto:filip.enculescu@gmail.com" target="_blank">
+          <a href="mailto:filip.enculescu@gmail.com" target="_blank" className={styles.actionBtn}>
             <div className={styles.talk}>
               <div className="talk-pulse">Let s talk</div>
             </div>
           </a>
         </div>
-        <div>
+        <div className="big-screen">
           <Image
             className={styles.center}
             src="/prof.png"
@@ -138,7 +137,6 @@ export default function Home() {
       <br />
       <br />
       <BarActions></BarActions>
-      
     </div>
   );
 }

@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 
 export default function WorkExperience(props: any) {
   return (
-    <div className={`columns-2 gap-3 ${styles.box}`}>
+    <div className={`${styles.columns} ${styles.box} gap-3`}>
       <div className={styles.info}>
         <div className={styles.companyInfo}>
           <img src={props.data.logo} className={styles.companyLogo} />

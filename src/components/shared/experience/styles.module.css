@@ -2,6 +2,10 @@
   margin-bottom: 6rem;
 }
 
+.columns {
+  columns: 2;
+}
+
 .portfolio {
   text-align: center;
   display: flex;
@@ -60,4 +64,10 @@
 .small {
   float: right;
   font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .columns {
+    columns: 1;
+  }
 }

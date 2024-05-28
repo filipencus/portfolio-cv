@@ -50,3 +50,15 @@
   float: right;
   font-size: 14px;
 }
+
+@media (max-width: 600px) {
+  .box {
+    flex-direction: column;
+  }
+  .company {
+    margin-bottom: 10px;
+  }
+  .desc {
+    -webkit-line-clamp: 5;
+  }
+}

@@ -12,7 +12,7 @@ export default function WorkExperienceSmall(props: any) {
       <div className={styles.info}>
         <h2 className={`text-xl font-semibold ${styles.title}`}>
           {props.data.title}
-          <small className="text-neutral-500 dark:text-neutral-400 small">
+          <small className={`text-neutral-500 dark:text-neutral-400 small`}>
             ({props.data.start} - {props.data.end})
           </small>
         </h2>
@@ -23,7 +23,6 @@ export default function WorkExperienceSmall(props: any) {
           ))}
         </div>
       </div>
-
     </div>
   );
 }
