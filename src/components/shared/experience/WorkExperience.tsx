@@ -9,7 +9,7 @@ export default function WorkExperience(props: any) {
           <div className="w-100">
             <h2 className="font-bold">
               {props.data.company}
-              <small className="text-neutral-500 dark:text-neutral-400">
+              <small className="text-neutral-500 dark:text-neutral-400 small">
                 ({props.data.start}{ props.data.end ? ' - ':''}{props.data.end})
               </small>
             </h2>

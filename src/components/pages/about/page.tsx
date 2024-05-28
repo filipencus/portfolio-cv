@@ -24,7 +24,7 @@ export default function About() {
       Hi 👋
       <br />
       <br />
-      I'm Lone, and I am the maker of this tool.
+      I am Lone, and I am the maker of this tool.
       <br />
       <br />
       I reside in Copenhagen, where I work with product management. In that role, I often facilitate

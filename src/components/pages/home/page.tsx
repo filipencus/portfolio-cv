@@ -20,14 +20,14 @@ export default function Home() {
           <h1>
             Hi 👋,
             <br />
-            I'm Filip.
+            I am Filip.
           </h1>
           <br />
           Software Developer from Madrid, Spain with more than 10 years of experience in building
           complex applications with cutting-edge technologies.
           <a href="mailto:filip.enculescu@gmail.com" target="_blank">
             <div className={styles.talk}>
-              <div className="talk-pulse">Let's talk</div>
+              <div className="talk-pulse">Let s talk</div>
             </div>
           </a>
         </div>

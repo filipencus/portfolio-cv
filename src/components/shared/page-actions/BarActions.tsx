@@ -29,7 +29,7 @@ export default function BarActions(props: any) {
           className={styles.btn}
           href="https://www.linkedin.com/in/filip-enculescu-ro/"
           target="_blank">
-          Let's talk <FontAwesomeIcon icon={faLinkedin} className="text-lg" />
+          Let s talk <FontAwesomeIcon icon={faLinkedin} className="text-lg" />
         </a>
       </div>
     </div>
