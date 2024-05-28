@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
+
+const basePath = "portfolio-cv";
+
 const nextConfig = {
   output: "export", // <=== enables static exports
   // basePath: "/portfolio-cv",
@@ -6,7 +9,8 @@ const nextConfig = {
   images: {
     loader: "custom",
     loaderFile: "./src/utils/ImageLoader.js",
-    // unoptimized: true,
+    unoptimized: true,
+    path: `${basePath}/_next/image`,
   },
 };
 
