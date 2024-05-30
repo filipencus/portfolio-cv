@@ -1,7 +1,7 @@
 .box {
   display: flex;
   flex-direction: row;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 .company {
@@ -21,8 +21,8 @@
 }
 
 .desc {
-  margin-bottom: 5px;
-  font-size: 14px;
+  margin-bottom: 16px !important;
+  font-size: 14px !important;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -34,6 +34,7 @@
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
+  margin-bottom: 5px;
 }
 
 .tags span {
@@ -43,7 +44,7 @@
 }
 
 .title {
-  font-size: 16px;
+  font-size: 18px !important;
 }
 
 .small {
@@ -54,11 +55,16 @@
 @media (max-width: 600px) {
   .box {
     flex-direction: column;
+    text-align: center;
   }
   .company {
     margin-bottom: 10px;
+    justify-content: center;
   }
   .desc {
     -webkit-line-clamp: 5;
+  }
+  .companyLogo {
+    max-height: 44px;
   }
 }

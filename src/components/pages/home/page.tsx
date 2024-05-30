@@ -5,11 +5,10 @@ import Image from "next/image";
 import { faAtom, faCode, faN } from "@fortawesome/free-solid-svg-icons";
 import { faAngular, faAws, faCss3, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faHtml5, faNodeJs, faReact, faSass, faSquareJs } from "@fortawesome/free-brands-svg-icons";
-import { experiences } from "@/models/experiences";
-import WorkExperienceSmall from "@/components/shared/experience/WorkExperienceSmall";
 import CustomButton from "@/components/shared/custom-button/CustomButton";
 import Link from "next/link";
 import BarActions from "@/components/shared/page-actions/BarActions";
+import HomeTimeline from "@/components/shared/home-timeline/HomeTimeline";
 
 export default function Home() {
   return (
@@ -119,18 +118,11 @@ export default function Home() {
       <div>
         <h3 className="section-title">EXPERIENCE</h3>
         <br />
-        <div className="experiences">
-          {experiences.map((data, i, { length }) => (
-            <WorkExperienceSmall
-              key={data.id}
-              data={data}
-              isFirstOne={i === 0}
-              isLastOne={i + 1 === length}></WorkExperienceSmall>
-          ))}
-        </div>
+        <HomeTimeline></HomeTimeline>
+
         <br />
         <CustomButton className="w-100" href="/experience">
-          See all info
+          See more details
         </CustomButton>
       </div>
 
