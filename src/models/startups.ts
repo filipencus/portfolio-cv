@@ -4,22 +4,18 @@ export const experiencesStartups = [
     title: "",
     company: "DAPPR",
     companyDesc: `Startup - demistifying men's fashion`,
-    start: 2023,
+    start: '2023 - 2024',
     end: "",
     logo: "/dapprIcon.png",
     app: ["/dappr1.png", "/dappr2.png", "/dappr3.png", "/dappr4.png"],
     desc: `TODO write this section propperly. Extend functionalities and resolve performance issues.\nApart of developing, I am in charge of making deployments to production and code quality reviews of teams.
-    Apart of developing, I am in charge of making deployments to production and code quality reviews of teams.
-    Apart of developing, I am in charge of making deployments to production and code quality reviews of teams.
-    Apart of developing, I am in charge of making deployments to production and code quality reviews of teams.
-    Apart of developing, I am in charge of making deployments to production and code quality reviews of teams.
-    ✔️ Design MVP requirements based on customers feedback.
-    ✔️ Help my team design the architecture of frontend (Angular) and backend (NodeJS).
-    ✔️ Search payments providers and make the integration with it (Stripe).
-    ✔️ Build the messaging part of the application using web sockets and MongoDB.
-    ✔️ Talk with customers to interate and improve our product (weekly).
-    ✔️ Develop chrome extension to help Recruitrers capture candidates profiles.
-    ✔️ Built a public website for the startup to engage first users.
+Apart of developing, I am in charge of making deployments to production and code quality reviews of teams.
+Apart of developing, I am in charge of making deployments to production and code quality reviews of teams.
+✔️ Search payments providers and make the integration with it (Stripe).
+✔️ Build the messaging part of the application using web sockets and MongoDB.
+✔️ Talk with customers to interate and improve our product (weekly).
+✔️ Develop chrome extension to help Recruitrers capture candidates profiles.
+✔️ Built a public website for the startup to engage first users.
     `,
     skills: [
       { id: 1, name: "Angular 12" },
@@ -41,17 +37,17 @@ export const experiencesStartups = [
     logo: "/logo.png",
     app: ["/joblink_1.png", "/joblink_3.png", "/joblink_2.png", "/joblink_4.png"],
     desc: `Co-Founder, Product Owner and fullstack developer working to build the first freelance-recruiting platform for Recruiters and candidates. Here are some of my tasks.
-  ✔️ Design MVP requirements based on customers feedback.
-  ✔️ Help my team design the architecture of frontend (Angular) and backend (NodeJS).
-  ✔️ Search payments providers and make the integration with it (Stripe).
-  ✔️ Build the messaging part of the application using web sockets and MongoDB.
-  ✔️ Talk with customers to interate and improve our product (weekly).
-  ✔️ Develop chrome extension to help Recruitrers capture candidates profiles.
-  ✔️ Built a public website for the startup to engage first users.
-  ✔️ Built the admin side app to manage accounts and to analize the usage of the application (analitics).
-  ✔️ Built a small version of our platform to run natively on desktop using Angular & ElectronJS.
-  ✔️ Setup, deploy and maintain our servers, SPA applications and other services on AWS.
-  ✔️ …and of course helping my team as as developer where needed backend or frontend.
+✔️ Design MVP requirements based on customers feedback.
+✔️ Help my team design the architecture of frontend (Angular) and backend (NodeJS).
+✔️ Search payments providers and make the integration with it (Stripe).
+✔️ Build the messaging part of the application using web sockets and MongoDB.
+✔️ Talk with customers to interate and improve our product (weekly).
+✔️ Develop chrome extension to help Recruitrers capture candidates profiles.
+✔️ Built a public website for the startup to engage first users.
+✔️ Built the admin side app to manage accounts and to analize the usage of the application (analitics).
+✔️ Built a small version of our platform to run natively on desktop using Angular & ElectronJS.
+✔️ Setup, deploy and maintain our servers, SPA applications and other services on AWS.
+✔️ …and of course helping my team as as developer where needed backend or frontend.
       `,
     skills: [
       { id: 1, name: "Angular 9" },
@@ -78,11 +74,11 @@ export const experiencesStartups = [
     logo: "/vidapy_icon.png",
     app: ["/vidapy_banner.png", "/vidapy.png"],
     desc: `Developing SPA applications using Angular / Ionic. I work to extend core functionalities of the product and resolve incoming bugs or issues. Sometimes I had to implement restfull api calls in backend using NodeJS.
-    ✔️ Design MVP requirements based on customers feedback.
-    ✔️ Help my team design the architecture of frontend (Angular) and backend (NodeJS).
-    ✔️ Search payments providers and make the integration with it (Stripe).
-    ✔️ Build the messaging part of the application using web sockets and MongoDB.
-    ✔️ Talk with customers to interate and improve our product (weekly).
+✔️ Design MVP requirements based on customers feedback.
+✔️ Help my team design the architecture of frontend (Angular) and backend (NodeJS).
+✔️ Search payments providers and make the integration with it (Stripe).
+✔️ Build the messaging part of the application using web sockets and MongoDB.
+✔️ Talk with customers to interate and improve our product (weekly).
     `,
     skills: [
       { id: 1, name: "Angular 8" },

@@ -74,6 +74,19 @@ footer {
   width: 100% !important;
 }
 
+.carousel .thumbs {
+  text-align: center;
+}
+
+.timeline-date-hide {
+  display: none !important;
+}
+
+.vertical-timeline {
+  width: 100% !important;
+  padding: 0 !important;
+}
+
 /** MOBILE SECTION */
 
 @media (max-width: 600px) {
