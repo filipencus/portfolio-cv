@@ -17,22 +17,23 @@ export default function Home() {
         <div className={styles.left}>
           <br />
           <h1>
-            Hi 👋,
-            <br />I am Filip.
+            Hi 👋
+            <br />
+            I&apos;m Filip.
           </h1>
           <br />
-          Software Developer from Madrid, Spain with more than 10 years of experience in building
-          complex applications with cutting-edge technologies.
+          Software engineer from Spain with over 10 years of experience in building web and mobile
+          applications with the latest technologies. And a JS & TS lover.
           <a href="mailto:filip.enculescu@gmail.com" target="_blank" className={styles.actionBtn}>
             <div className={styles.talk}>
-              <div className="talk-pulse">Let s talk</div>
+              <div className="talk-pulse">Let&apos;s talk</div>
             </div>
           </a>
         </div>
         <div className="big-screen">
           <Image
             className={styles.center}
-            src="/prof.png"
+            src="/prof2.png"
             alt="profile"
             width={250}
             height={250}
@@ -55,7 +56,9 @@ export default function Home() {
 
       <div>
         <h3 className="section-title">TECH & SKILLS</h3>
-        <p className="mt-3">The skills, tools and technologies I use to bring products to life.</p>
+        <p className="mt-3">
+          The skills, tools and technologies I use to design and build products.
+        </p>
         <br />
         <div className={styles.skills}>
           <div className={styles.boxIcon}>
@@ -117,6 +120,13 @@ export default function Home() {
 
       <div>
         <h3 className="section-title">EXPERIENCE</h3>
+        <p className="mt-3">
+          Brief info about my work experience. For all details please go {' '}
+          <Link href="/experience" className={styles.link}>
+            here.
+          </Link>
+        </p>
+        <br />
         <br />
         <HomeTimeline></HomeTimeline>
 

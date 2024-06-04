@@ -129,14 +129,13 @@ export const experiences = [
     ],
     logo: "/c10logo.png",
     app: ["/c10.png","/c10_2.png","/c10_3.png"],
-    desc: `Fullstack programmer developing projects based on AngularJS for external clients and internal company products. Backend programmer working with NodeJS, PHP and Codeigniter to create APIs. Also I was in charge to design and manage our cloud systems on Amazon (AWS). Developing from basic websites to big projects and applications.
+    desc: `Fullstack programmer developing projects based on AngularJS for external clients and internal company products. Backend programmer working with NodeJS, PHP and Codeigniter to create APIs. Also I was in charge to design and manage our cloud systems on Amazon (AWS).
 ✔️ Developing applications for client side with Javascript, AngulaJS, jQuery and Bootstrap.
 ✔️ Developing APIs (REST) with NodeJS, PHP, Codeigniter and Mysql.
 ✔️ Developing real time web applications with NodeJS, Sockets and MongoDB.
 ✔️ Responsive web with HTML5, CSS3 and Bootstrap.
 ✔️ Developing mobile hybrid applications with Ionic and Phonegap
 ✔️ Design and management our company cloud systems on Amazon (AWS)
-✔️ Developing Raspberry PI applications.
 ✔️ Printer integrations with Epson(ESCPos) and Casio/HPRT(ESCPos) to print tickets.
 ✔️ Integrations with video-streaming platforms Youtube and Vzaar.
 ✔️ Developing Chrome extensions.

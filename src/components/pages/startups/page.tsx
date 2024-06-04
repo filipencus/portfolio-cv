@@ -44,7 +44,7 @@ export default function Startups() {
           <p>Watch complete video</p>
           <div className={styles.videowrapper}>
             <iframe
-              src="https://www.youtube.com/embed/6Itk4wnhuvQ?si=KjAFu1IwFd_HKh2t"
+              src="https://www.youtube.com/embed/wfsRAZUnonI?si=KjAFu1IwFd_HKh2t"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"

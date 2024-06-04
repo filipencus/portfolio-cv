@@ -31,7 +31,7 @@
 
 .desc {
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 14px !important;
   white-space: pre-wrap;
 }
 
@@ -60,5 +60,8 @@
 @media (max-width: 600px) {
   .companyLogo {
     display: none;
+  }
+  .desc {
+    font-size: 12px !important;
   }
 }

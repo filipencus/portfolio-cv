@@ -16,34 +16,48 @@ export default function About() {
           priority
         />
         <p>
-          Frontend Software Developer 💡 <br />
+          Frontend Software Developer <br />
           React - Angular - Typescript
         </p>
       </div>
       <br />
+
       Hi 👋
       <br />
       <br />
-      I am Lone, and I am the maker of this tool.
+      My name is Filip and I enjoy designing / developing products using Javascript &
+      Typescript.
+      Seriously I love those languages. 
+      <br />
+      First time I read about them I was 12 years old. 🎉
       <br />
       <br />
-      I reside in Copenhagen, where I work with product management. In that role, I often facilitate
-      different kinds of creative processes, which is something I really enjoy!
+      I have over 10 years of experience in software development building products for B2C and B2B
+      markets.
+      And currently, I work for Ing-Bank as a software engineer and head of quality assurance(code).
       <br />
       <br />
-      During the covid-19 lockdown, when everything suddenly had to be online, I realized how much
-      extra effort you have to put into remote facilitation, and I wanted to do something about it!
+      In the past, I learn a lot about companies&apos; failures and successes as well. It was a great
+      journey.
+      I have been involved in all stages... from idea to customer research, product design,
+      development, and delivering scalable solutions. ✨
       <br />
       <br />
-      I decided to make a tool that.
+      I work very hard and I am so committed to the promises I make.
+      <br />
+      And of course, I love startups world, people and innovation... 💡
+      <br />
+      <br />
+      Want to know me better? feel free to take a look at my video.
       <br />
       <br />
       <br />
-      <h2 className="text-xl">VIDEO INTRODUCTIONS</h2>
+
+      {/* <h2 className="text-xl">VIDEO INTRODUCTIONS</h2> */}
       <div>
         <div className={styles.videowrapper}>
           <iframe
-            src="https://www.youtube.com/embed/__mSgDEOyv8?si=qF-OI0ZRdQlPP2Xq"
+            src="https://www.youtube.com/embed/wfsRAZUnonI?si=qF-OI0ZRdQlPP2Xq"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"

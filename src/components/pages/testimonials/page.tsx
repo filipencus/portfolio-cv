@@ -6,7 +6,7 @@ import BarActions from "@/components/shared/page-actions/BarActions";
 export default function Testimonials() {
   return (
     <>
-      <h3 className="section-title">THINGS PEOPLE SAY</h3>
+      <h3 className="section-title">WHAT PEOPLE SAY</h3>
       <br />
       <br />
 

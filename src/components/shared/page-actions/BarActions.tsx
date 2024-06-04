@@ -15,7 +15,7 @@ export default function BarActions(props: any) {
 
   return (
     <div className={styles.container}>
-      <p className="mb-3 mt-2">Whant to get in touch with me?</p>
+      <p className="mb-3 mt-2">Want to get in touch with me?</p>
       <div className={styleClasses}>
         <a className={styles.btn} href="mailto:filip.enculescu@gmail.com" target="_blank">
           Contact me <FontAwesomeIcon icon={faEnvelope} className="text-lg" />
@@ -29,7 +29,7 @@ export default function BarActions(props: any) {
           className={styles.btn}
           href="https://www.linkedin.com/in/filip-enculescu-ro/"
           target="_blank">
-          Let s talk <FontAwesomeIcon icon={faLinkedin} className="text-lg" />
+          Let&apos;s talk <FontAwesomeIcon icon={faLinkedin} className="text-lg" />
         </a>
       </div>
     </div>

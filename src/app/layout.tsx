@@ -24,7 +24,7 @@ export default function RootLayout({
         <div className="app-container">
           <Navbar></Navbar>
           <main>{children}</main>
-          <footer>© 2024, Made with 🧡 by Filip Enc.</footer>
+          {/* <footer>© 2024, Made with 🧡 by Filip Enc.</footer> */}
           <Bottombar></Bottombar>
         </div>
       </body>
