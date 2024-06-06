@@ -29,15 +29,15 @@ export default function About() {
       Typescript.
       Seriously I love those languages. 
       <br />
-      First time I read about them I was 12 years old. 🎉
+      First time I read about Javascript I was 12 years old. 🎉
       <br />
       <br />
       I have over 10 years of experience in software development building products for B2C and B2B
       markets.
-      And currently, I work for Ing-Bank as a software engineer and head of quality assurance(code).
+      And currently, I work for Ing-Bank as a software engineer and head of quality assurance.
       <br />
       <br />
-      In the past, I learn a lot about companies&apos; failures and successes as well. It was a great
+      In the past, I learned a lot about companies&apos; failures and successes as well. It was a great
       journey.
       I have been involved in all stages... from idea to customer research, product design,
       development, and delivering scalable solutions. ✨
