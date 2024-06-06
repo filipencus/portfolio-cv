@@ -67,7 +67,7 @@ export default function Startups() {
         </li>
       </ul>
       <br />
-      Even if 10 business fails but one succeeds, you will have the best time in your life.
+      Even if 10 businesses fails but one succeeds, you will have the best time in your life.
       It&apos;s something that definitely worth fighting for it. 😀
       <br />
       <br />
