@@ -28,8 +28,8 @@ export default function Startups() {
       My name is Filip and this is my story...
       <br />
       I am a serial entrepreneur and a software engineer with over 10 years of experience building
-      web and mobile apps... That&apos;s usually what I do for companies, however, my dream always was to
-      build something useful to people, to turn ideas into reality. ✨
+      web and mobile apps... That&apos;s usually what I do for companies, however, my dream always
+      was to build something useful to people, to turn ideas into reality. ✨
       <br />
       <br />
       I was born in Romania but I grew up my whole life in Spain. Also, I lived for a while in
@@ -42,13 +42,13 @@ export default function Startups() {
       In 2014 I graduated in Computer Science in Spain and started working for several startups...
       However, even if I work for tech companies building or extending features, every 2 or 3 years
       I step back for a while and start a business. Working for companies is great but not
-      fulfilling, at least not for me. I don&apos;t have the freedom to create, to innovate, or to invest
-      in something I believe is worth...
+      fulfilling, at least not for me. I don&apos;t have the freedom to create, to innovate, or to
+      invest in something I believe is worth...
       <br />
       <br />
       I always dreamed of having a business. As a child, I remember writing Microsoft all over the
-      place using stickers. I believe that businesses can improve people&apos;s lives in many ways. And
-      definitely, that&apos;s my purpose in life. 🚴🏼‍♂️
+      place using stickers. I believe that businesses can improve people&apos;s lives in many ways.
+      And definitely, that&apos;s my purpose in life. 🚴🏼‍♂️
       <br />
       <br />
       During the journey as you can see (look below timeline) I founded several startups. Most of
@@ -57,16 +57,17 @@ export default function Startups() {
       <br />
       During that time: 💡
       <br />
-      <ul>
+      <ul className={styles.list}>
         <li>I learned that not only good ideas are necessary but also great execution.</li>
         <li>I learned that not everybody is committed to delivering what they promise.</li>
         <li>
-          I learned that building a business is not for everyone. You have to have that "virus",
-          otherwise on the first complication, most people will give up, pretty easily.
+          I learned that building a business is not for everyone. You have to have that
+          &quot;virus&quot;, otherwise on the first complication, most people will give up, pretty
+          easily.
         </li>
       </ul>
       <br />
-      However, if one business succeeds in 10 failures, you will have the best time in your life.
+      Even if 10 business fails but one succeeds, you will have the best time in your life.
       It&apos;s something that definitely worth fighting for it. 😀
       <br />
       <br />
@@ -116,14 +117,14 @@ export default function Startups() {
       🧳 The technical side:
       <br />
       <br />
-      <ul>
+      <ul className={styles.list}>
         <li>
           I love Javascript and Typescript. But I am not closed to it. The right tech for the right
           project I believe.{" "}
         </li>
         <li>
           Most of the products I build are based on JS, TS, NodeJs, React, React Native, NextJs,
-          Angular, Ionic, MySQL and AWS as cloud architecture. {" "}
+          Angular, Ionic, MySQL and AWS as cloud architecture.{" "}
         </li>
         <li>
           I also did integrations with Pipedrive, Stripe payments, MongoDB, and other dependencies
@@ -140,11 +141,13 @@ export default function Startups() {
       <br />
       <ul>
         <li>
-          I am searching for a co-founder who has a better background than me on the marketing and sales side as
-          my profile is more technical.
+          I am searching for a co-founder who has a better background than me on the marketing and
+          sales side as my profile is more technical.
         </li>
-        <li>I am looking for a startup who is willing to accept a new co-founder. 
-          Let me see if I am get in love with your product or idea. 💖</li>
+        <li>
+          I am looking for a startup who is willing to accept a new co-founder. Let me see if I am
+          get in love with your product or idea. 💖
+        </li>
         <li>Or just a startup who wants my advices or technical support.</li>
       </ul>
       <br />
