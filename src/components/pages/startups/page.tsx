@@ -104,7 +104,7 @@ export default function Startups() {
         <div>
           <div className={styles.videowrapper}>
             <iframe
-              src="https://www.youtube.com/embed/__mSgDEOyv8?si=qF-OI0ZRdQlPP2Xq"
+              src="https://www.youtube.com/embed/DPR3p3EJADo?si=qF-OI0ZRdQlPP2Xq"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
@@ -139,7 +139,7 @@ export default function Startups() {
       🧳 What I am looking for:
       <br />
       <br />
-      <ul>
+      <ul className={styles.list}>
         <li>
           I am searching for a co-founder who has a better background than me on the marketing and
           sales side as my profile is more technical.

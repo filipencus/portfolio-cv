@@ -2,10 +2,33 @@ export const experiences = [
   {
     id: 1,
     title: "Senior Frontend Developer",
+    company: "Ing Bank",
+    companyDesc: `Corporation - online banking services`,
+    start: 2023,
+    end: "currently",
+    logo: "https://2knowlab.com/wp-content/uploads/2020/03/ing-logo.jpg",
+    app: ["/banca.jpg"],
+    desc: `Design and build new applications based on web components technology. Also extending core UI library with new features and implement unit and end to end testing.
+Also I am in charge to create some internal tools for QA engineers using React and related ecosystem technologies.`,
+    skills: [
+      { id: 1, name: "Web Components" },
+      { id: 2, name: "Lit Element" },
+      { id: 3, name: "Typescript" },
+      { id: 4, name: "Lighthouse" },
+      { id: 5, name: "Playwright" },
+      { id: 6, name: "Cypress" },
+      { id: 7, name: "React" },
+      { id: 8, name: "Azure Devops" },
+      { id: 9, name: "Chrome Extensions" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Senior Frontend Developer",
     company: "EVA",
     companyDesc: `Startup - mid company who provides POS solutions for retailers.`,
     start: 2021,
-    end: "current",
+    end: 2023,
     logo: "https://www.nuget.org/profiles/NewBlack/avatar?imageSize=512",
     app: ["/nb.png"],
     desc: "Build intuitive applications. Extend functionalities and resolve performance issues.\nApart of developing, I am in charge of making deployments to production and code quality reviews of teams.",
@@ -20,14 +43,14 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "CTO & FullStack Developer",
     company: "JOBLink",
     companyDesc: `Startup - cloud solutions for recruiters.`,
     start: 2020,
     end: 2021,
     logo: "/logo.png",
-    app: ["/joblink_1.png","/joblink_3.png","/joblink_2.png","/joblink_4.png"],
+    app: ["/joblink_1.png", "/joblink_3.png", "/joblink_2.png", "/joblink_4.png"],
     desc: `Co-Founder, Product Owner and fullstack developer working to build the first freelance-recruiting platform for Recruiters and candidates. Here are some of my tasks.
 ✔️ Design MVP requirements based on customers feedback.
 ✔️ Help my team design the architecture of frontend (Angular) and backend (NodeJS).
@@ -57,7 +80,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Senior Frontend Developer",
     company: "Corte Inglés",
     companyDesc: `Corporation - travel business solutions.`,
@@ -75,7 +98,7 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Senior Frontend Developer",
     company: "NATO Agency",
     companyDesc: `Government - military applications.`,
@@ -94,7 +117,7 @@ export const experiences = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Frontend Developer",
     company: "ING Bank",
     companyDesc: `Corporation - customers banking solutions.`,
@@ -112,8 +135,8 @@ export const experiences = [
     ],
   },
   {
-    id: 6,
-    title: "AngularJS and NodeJS Developer",
+    id: 7,
+    title: "FullStack Developer",
     company: "MOVE4TALENT",
     companyDesc: `Startup - providing POS solutions for big chains, restaurants and pubs.`,
     start: 2014,
@@ -128,7 +151,7 @@ export const experiences = [
       { id: 7, name: "CASIO sdk integrations" },
     ],
     logo: "/c10logo.png",
-    app: ["/c10.png","/c10_2.png","/c10_3.png"],
+    app: ["/c10.png", "/c10_2.png", "/c10_3.png"],
     desc: `Fullstack programmer developing projects based on AngularJS for external clients and internal company products. Backend programmer working with NodeJS, PHP and Codeigniter to create APIs. Also I was in charge to design and manage our cloud systems on Amazon (AWS).
 ✔️ Developing applications for client side with Javascript, AngulaJS, jQuery and Bootstrap.
 ✔️ Developing APIs (REST) with NodeJS, PHP, Codeigniter and Mysql.
