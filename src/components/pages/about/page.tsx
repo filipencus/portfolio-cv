@@ -48,12 +48,15 @@ export default function About() {
       And of course, I love startups world, people and innovation... 💡
       <br />
       <br />
-      Want to know me better? feel free to take a look at my video.
+      Want to know me better? feel free to take a look at my video.  
       <br />
       <br />
+    
+      <p style={{ color: "red" }}>(PENDING TO UPLOAD VIDEO)</p>
+
       <br />
 
-      {/* <h2 className="text-xl">VIDEO INTRODUCTIONS</h2> */}
+      {/* <h2 className="text-xl">VIDEO INTRODUCTION</h2> */}
       <div>
         <div className={styles.videowrapper}>
           <iframe

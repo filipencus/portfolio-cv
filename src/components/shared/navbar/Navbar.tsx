@@ -2,9 +2,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "./styles.module.css";
+import useStartupsFilter from "@/components/hooks/startups-filter-hook";
 
 export default function Navbar() {
   const currPath = usePathname();
+  const showStartups = useStartupsFilter();
+
   return (
     <nav className={styles.navbar}>
       <Link href="/" className={currPath === "/" ? styles.active : ""}>
@@ -19,9 +22,11 @@ export default function Navbar() {
       <Link href="/about" className={currPath === "/about" ? styles.active : ""}>
         About
       </Link>
-      <Link href="/startups" className={currPath === "/startups" ? styles.active : ""}>
-        Entrepreneurship
-      </Link>
+      {showStartups && (
+        <Link href="/startups" className={currPath === "/startups" ? styles.active : ""}>
+          Entrepreneurship
+        </Link>
+      )}
     </nav>
   );
 }

@@ -72,7 +72,12 @@ export default function Startups() {
       <br />
       <br />
       Let&apos;s join our knowledge, passion, and experience to build great products.
+
       <br />
+      <br />
+    
+      <p style={{ color: "red" }}>(PENDING TO UPLOAD VIDEO)</p>
+
       <br />
       <hr />
       <br />
