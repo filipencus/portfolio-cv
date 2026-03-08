@@ -82,8 +82,8 @@ export default function Home() {
             <p>IONIC</p>
           </div>
           <div className={styles.boxIcon}>
-            <FontAwesomeIcon icon={faNodeJs} size="4x" />
-            <p>NODEJS</p>
+            <FontAwesomeIcon icon={faReact} size="4x" />
+            <p>REACT NATIVE</p>
           </div>
           <div className={styles.boxIcon}>
             <FontAwesomeIcon icon={faHtml5} size="4x" />
@@ -106,8 +106,8 @@ export default function Home() {
             <p>TYPESCRIPT</p>
           </div>
           <div className={styles.boxIcon}>
-            <FontAwesomeIcon icon={faGithub} size="4x" />
-            <p>GITHUB</p>
+            <FontAwesomeIcon icon={faNodeJs} size="4x" />
+            <p>NODEJS</p>
           </div>
         </div>
       </div>
